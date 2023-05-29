@@ -1,0 +1,61 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header-container{
+  width: 100%;
+}
+header{
+  display: flex;
+  justify-content: center;
+  background-color: purple;
+  color: white;
+  
+}
+header img{
+  width: 50px;
+  margin: 15px 5px 15px 20px;
+}
+.meme{
+  width: 100%;
+}
+main{
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 35px auto;
+
+}
+main input{
+  width: 40%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.btn{
+  width: 91.5%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: purple;
+  color: white;
+  font-size: 16px;
+  border: 0;
+  cursor: pointer;
+  
+}
+.meme img{
+  width: 25px;
+  position: relative;
+  top:7px;
+  left:10px
+}
+
